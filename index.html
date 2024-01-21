@@ -31,13 +31,15 @@
     }
   </style>
   <body class="font-manrope">
-    <nav class="bg-gradient-to-r from-[#F00] to-[#FF8938] fixed w-full top-0 left-0 z-10">
+    <nav
+      class="bg-gradient-to-r from-[#F00] to-[#FF8938] fixed w-full top-0 left-0 z-10"
+    >
       <div
-        class="container mx-auto py-7 px-7 text-white   flex justify-between items-center"
+        class="container mx-auto py-7 px-7 text-white flex justify-between items-center"
       >
         <div class="flex items-center list-none gap-9">
           <div class="font-bold text-2xl md:text-3xl">
-            <span class="font-thin ">Enjoy</span>Tea
+            <span class="font-thin">Enjoy</span>Tea
           </div>
           <div class="gap-5 font-semibold opacity-90 hidden md:flex">
             <li><a href="">Home</a></li>
@@ -50,7 +52,7 @@
           <!-- Theme controller -->
           <label class="swap swap-rotate pr-4">
             <!-- this hidden checkbox controls the state -->
-            <input type="checkbox" class="theme-controller" value="synthwave" />
+            <input type="checkbox" class="theme-controller" value="retro" />
 
             <!-- sun icon -->
             <svg
@@ -86,43 +88,98 @@
     <header>
       <div class="container mx-auto pt-40">
         <div class="hero">
-          <div class="hero-content flex flex-col lg:flex-row text-center lg:text-left justify-between">
+          <div
+            class="hero-content flex flex-col lg:flex-row text-center lg:text-left justify-between"
+          >
             <div class="flex-1 space-y-3">
               <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold">
-                It's good <br>
-                tea time at The <br>
+                It's good <br />
+                tea time at The <br />
                 Tea House
               </h1>
               <p class="py-6 text-md">
-                Tea and Botanical Solutions Supplier Give Optimum Satisfaction <br>
+                Tea and Botanical Solutions Supplier Give Optimum Satisfaction
+                <br />
                 To Your Taste Buds.
               </p>
-              
-              <button class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] text-white">
-                 Explore More <i class="ri-arrow-right-up-line"></i>
+
+              <button
+                class="btn bg-gradient-to-r from-[#F00] to-[#FF8938] text-white"
+              >
+                Explore More <i class="ri-arrow-right-up-line"></i>
               </button>
             </div>
             <div class="relative flex-1">
-                <img
-                  src="images/banner.png"
-                  class="max-w-full "
-                />
-                <div class="flex items-center gap-4 p-3 lg:p-6  bg-white rounded-2xl shadow-lg w-[200px] lg:w-[255px] absolute bottom-0 left-16">
-                    <div class="">
-                        <i class="ri-star-fill text-yellow-400 text-3xl"></i>
-                    </div>
-                    <div class="text-left">
-                        <h2 class="text-xl lg:text-2xl font-bold text-gray-900 ">5.00</h2>
-                    <p class="text-gray-700">Trust Pilot Ratings</p>
-                    </div>
+              <img src="images/banner.png" class="max-w-full" />
+              <div
+                class="flex items-center gap-4 p-3 lg:p-6 bg-white rounded-2xl shadow-lg w-[200px] lg:w-[255px] absolute bottom-0 left-16"
+              >
+                <div class="">
+                  <i class="ri-star-fill text-yellow-400 text-3xl"></i>
                 </div>
+                <div class="text-left">
+                  <h2 class="text-xl lg:text-2xl font-bold text-gray-900">
+                    5.00
+                  </h2>
+                  <p class="text-gray-700">Trust Pilot Ratings</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </header>
     <main>
-        
+      <!-- Our featured product card section -->
+      <div class="container mx-auto px-7 pt-24">
+        <div class="text-center w-2/3 mx-auto pb-12">
+          <h1 class="text-4xl font-bold pb-5">Our Featured Products</h1>
+          <p class="text-gray-600">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="card bg-gradient-to-t from-[#fff] to-[#F1EFEF] p-7">
+            <figure><img src="images/tea-1.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p class="font-semibold text-gray-500">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <div class="card bg-gradient-to-t from-[#fff] to-[#F1EFEF] p-7">
+            <figure><img src="images/tea-2.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p class="font-semibold text-gray-500">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <div class="card bg-gradient-to-t from-[#fff] to-[#F1EFEF] p-7">
+            <figure><img src="images/tea-3.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p class="font-semibold text-gray-500">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+          <div class="card bg-gradient-to-t from-[#fff] to-[#F1EFEF] p-7">
+            <figure><img src="images/tea-4.png" alt="Shoes" /></figure>
+            <div class="card-body text-center">
+              <h2 class="text-2xl font-bold">Milk Tea</h2>
+              <p class="font-semibold text-gray-500">
+                Creamer could be replaced by fresh milk
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>
